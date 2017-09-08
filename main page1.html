@@ -8,50 +8,47 @@
 <body>
 
 	<header>
-		<h1>MANGO</h1>
-		
-		<!--Картинка для телефона-->
-		
-		<img src="http://placehold.it/150x100">
-		<span>+7 900 000 00 00 </span>
-		
-		<input class='search' type='text' value='Поиск по сайту'></input>
-	
-		<!--Картинка для профиля-->
-		
-		<img src="http://placehold.it/150x100">
-		<a href=''>Личный кабинет</a>
-		
-		<!--Картинка для корзины -->
-		
-		<img src="http://placehold.it/150x100">
-		<a href=''>Корзина</a>
-		
+		<nav>
+			<div class='usernavigation'>
+				<a href='#'><h1>MANGO</h1></a>
+			
+				<a href='tel:+79000000000'>+7 900 000 00 00 </a>
+				
+				<input class='search' type='text' value='Поиск по сайту'></input>
+			
+				<a href='#'>Личный кабинет</a>
+				
+				<a href='#'>Корзина</a>
+			</div>
+			<div class='nav-menu'>
+			<!--меню-->
+				<ul>
+					<li>Все категории</li>
+					<li>Доставка</li>
+					<li>Гарантия</li>
+					<li>Контакты</li>
+				</ul>
+			</div>
+		</nav>
 	</header>
 	
-	<!--меню-->
-	<nav>
-		<ul>
-			<li>Все категории</li>
-			<li>Доставка</li>
-			<li>Гарантия</li>
-			<li>Контакты</li>
-		</ul>
-	</nav>
+	
 	<main>
 	<!--Слайдер-->
 	<section>
-		<div>
-			<h1>ноутбуки
+		<div class='slider1'>
+			<h2>ноутбуки
 				<span>для офиса и дома</span>
-			</h1>
+			</h2>
 			<p>Lorem ipsem dolor sit amet, consectetur adipisicing elit, sed 
 			do eiusmod tempor incididunt ut labore et dolore magna</p>
-			<button>подробнее</button>
+			<a href='#'>подробнее</a>
 		</div>
 		<!--Картинка ноутбука-->
 		<img src="http://placehold.it/150x100">
-
+		<input type='radio' name='slider1' value='1'>
+		<input type='radio' name='slider1' value='2'>
+		<input type='radio' name='slider1' value='3'>
 	</section>
 	<!--Конец слайдера-->
 	
@@ -83,11 +80,10 @@
 	<section>
 	
 		<!--Слайдер номер два работаютщий на лейблах в виде кнопок. Где имейджи должны быть картинки -->
-		<label>доставка</label>
-		<label>гарантия</label>
-		<label>кредит</label>
-				
-		
+		<input type='radio' name='slider2' value='1'>доставка	
+		<input type='radio' name='slider2' value='2'>гарантия
+		<input type='radio' name='slider2' value='3'>кредит
+			
 		<span>Доставка</span>
 		
 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
@@ -127,49 +123,49 @@
 	<section>
 		<ul>
 			<li>
-				<a href=''>
+				<a href='#'>
 					<img src="http://placehold.it/150x100">
 				</a>
 			</li>
 			
 			<li>
-				<a href=''>
+				<a href='#'>
 					<img src="http://placehold.it/150x100">
 				</a>
 			</li>
 			
 			<li>
-				<a href=''>
+				<a href='#'>
 					<img src="http://placehold.it/150x100">
 				</a>
 			</li>
 			
 			<li>
-				<a href=''>
+				<a href='#'>
 					<img src="http://placehold.it/150x100">
 				</a>
 			</li>
 			
 			<li>
-				<a href=''>
+				<a href='#'>
 					<img src="http://placehold.it/150x100">
 				</a>
 			</li>
 			
 			<li>
-				<a href=''>
+				<a href='#'>
 					<img src="http://placehold.it/150x100">
 				</a>
 			</li>
 			
 			<li>
-				<a href=''>
-					<<img src="http://placehold.it/150x100">
+				<a href='#'>
+					<img src="http://placehold.it/150x100">
 				</a>
 			</li>
 			
 			<li>
-				<a href=''>
+				<a href='#'>
 					<img src="http://placehold.it/150x100">
 				</a>
 			</li>
@@ -180,7 +176,7 @@
 	
 	<div>
 		<section>
-			<h1>Наша компания</h1>
+			<h2>Наша компания</h2>
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
 			sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 			Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
@@ -193,7 +189,7 @@
 				<li>proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit </li>
 			</ul>
 			
-			<a href=''>напишите нам</a>
+			<a href='#'>напишите нам</a>
 		</section>
 		
 		<article>
@@ -206,31 +202,30 @@
 		</article>
 	</div>
 	<footer>
-		<h1>MAGNO</h1>
+		<a href='#'>MAGNO</a>
 		<span>
 			Г.МОСКВА, УЛ.СТРОИТЕЛЕЙ, 15
 			К 1 ОФИС 45А
 		</span>
-		<span>8-800-5000-616</span>
-		<a href=''>Доставка</a>
-		<a href=''>Гарантия</a>
-		<a href=''>Контакты</a>
+		<a href='tel:88005000616'>8-800-5000-616</a>
+		<a href='#'>Доставка</a>
+		<a href='#'>Гарантия</a>
+		<a href='#'>Контакты</a>
 		<!--карта-->
 		<img src="http://placehold.it/150x100">
 		
-		<img src="http://placehold.it/150x100">
-		<a href=''>Личный кабинет</a>
-			  
-		<img src="http://placehold.it/150x100">
-		<a href=''>Корзина</a>
 		
-		<div>
+		<a href='#'>Личный кабинет</a>
+		<a href='#'>Корзина</a>
+		
+		<section>
+			<span>Все права защищены 2017</span>
 			<!--соцсети-->
-			<a href=''><img src="http://placehold.it/150x100"><!--вконтакте--></a>
-			<a href=''><img src="http://placehold.it/150x100"><!--фейсбук--></a>
-			<a href=''><img src="http://placehold.it/150x100"><!--твитер--></a>
-			<a href=''><img src="http://placehold.it/150x100"><!--мэил.ру--></a>
-		</div>
+			<a href='#'><img src="http://placehold.it/150x100"><!--вконтакте--></a>
+			<a href='#'><img src="http://placehold.it/150x100"><!--фейсбук--></a>
+			<a href='#'><img src="http://placehold.it/150x100"><!--твитер--></a>
+			<a href='#'><img src="http://placehold.it/150x100"><!--мэил.ру--></a>
+		</section>
 	
 	</footer>
 	
