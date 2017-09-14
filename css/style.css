@@ -1,5 +1,5 @@
 body{
-background-color: #888888;
+background-color: #ffffff;
 }
 header{
 	background-color:red;
@@ -12,4 +12,7 @@ header{
 a{
 	text-decoration:none;
 	
+}
+footer{
+	background-color:#464646;
 }
