@@ -2,21 +2,287 @@ body{
 background-color: #ffffff;
 }
 header{
-	background-color:red;
+	background-color: #3c3c3c;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height:77px;
 }
 
+.tel{
+	}
+
+.tel a{
+	color: #e9b637;
+}
 .search {
-	background-image: url();	
+	background-image: url(image/basket.png);	
+	background-color:#3c3c3c;
+	border-color: #FFFFFF;
+	color:white;
 }
 
 a{
-	text-decoration:none;
-	
-}
-footer{
-	background-color:#464646;
+	text-decoration:none;	
 }
 
 .filter{
 	background-color:#606060;
+}
+
+li{
+	list-style:none;	
+}
+
+.usernavigation{
+	width:90%;
+	text-align: center;
+}
+
+.usera{
+	color:white;
+}
+
+.usernavigation ul{
+	display: flex;
+		flex-direction:row;
+		justify-content:center;
+		align-items:center;
+}
+
+.usernavigation ul li{
+	padding-right:60px;
+}
+
+.mainlogo{
+flex-grow:1;
+}
+
+.nav-menu{
+	background-color: #f0f0f0;
+	position: relative;
+	top:0;
+	left:0;
+	width: 100%;
+	height:77px;	
+}
+
+.main-slider {
+	background-color: #e9b637;
+	width: 80%;
+	height:388px;
+	margin:0 auto;
+	margin-top:154px;
+	display: flex;
+		flex-direction:row;
+		justify-content:center;
+		align-items:center;
+	box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+	
+}
+
+.slidertext{
+	color:white;
+	width: 400px;
+	height:207px;
+	padding-left:100px;
+}
+
+.slidertext h2{
+	font-size:35px;
+}
+
+.slidertext span{
+	color:#4c463c;
+}
+
+.more{
+	border:2px solid white;
+	border-radius:4px;
+	width:206px;
+	height:39px;
+	display: flex;
+		align-items:center;
+		justify-content:center;
+}
+
+.more a{
+	color:white;	
+}
+
+
+
+.tovar{
+	color:#3c3c3c;	
+	display: flex;
+		justify-content:center;
+	padding:100px 0 100px 0;
+}
+
+.tovar ul{
+	display: flex;
+		justify-content:space-between;
+		flex-direction:row;
+	width:80%;
+	padding-left:0;
+	text-align:center;	
+}
+
+.tovar a{
+	color:black;
+}
+
+.tovarwidth{
+	width:150px;
+	height:250px;
+}
+
+.icon_tovar{
+  border-radius: 50%;
+  background-color: rgb(240, 240, 240);
+  width: 145px;
+  height: 145px;
+  border:5px solid #e9b637;
+}
+
+.services{
+	width:80%;
+	margin:0 auto;
+	display: flex;
+		flex-direction:row;
+		justify-content:center;
+		align-items:center;
+}
+
+.serv_buttons{
+	width:250px;
+	height:180px;
+	display: flex;
+		justify-content:space-between;
+		flex-direction:column;
+}
+
+.serv_button{
+  border: 1px solid rgb(60, 60, 60);
+  width: 250px;
+  height: 43px;
+  display: flex;
+		align-items:center;
+		justify-content:center;
+}
+
+.serv_description{
+  color: rgba(60, 60, 60, 0.62);
+  
+  width: 473.414px;
+  height: 108.261px;
+  
+}
+
+}
+
+.caption{
+	font-size:40px;
+	color:black;
+}
+
+.brands{
+	width:80%;
+}
+
+.brands ul{
+	display: flex;
+	flex-direction:row;
+	justify-content:space-around;
+	
+}
+
+.our_company{
+	display: flex;
+	flex-direction:row;
+	align-items: center;
+    justify-content: center; 
+	}
+
+.about_us{
+	background-color:#e7e7e7;
+	width: 759px;
+	height: 546px;
+	color:#8c8c8c;
+	padding:50px;
+	box-sizing: border-box;
+}
+
+.about_us h2{
+	color:#3c3c3c;
+}
+
+.about_us li{
+	list-style:disc;	
+	
+	}
+
+.mailing{
+	background-color:#3c3c3c;
+	width: 414px;
+	height: 546px;
+	color:white;
+	padding:40px;
+	box-sizing: border-box;
+	display: flex;
+		flex-direction:column;
+		align-items:stretch;
+}
+
+.mailing input{
+	border:1px solid white;
+	background-color: rgba(255, 255, 255, 0.271);
+	opacity: 0.4;
+	width: 335px;
+	height: 46px;
+	padding:10px;
+	color:white;
+}
+
+.note{
+  font-size: 11px;
+  font-family: "Century Gothic";
+  color: rgba(255, 255, 255, 0.122);
+  line-height: 1.2;
+  width: 296.025px;
+  height: 36.431px;
+}
+
+.mailing button{
+	background-color: rgb(233, 182, 55);
+	width: 337px;
+	height: 65px;
+	display: flex;
+		align-items:center;
+		justify-content:center;
+	border:0px solid red;
+	font-size:20px;
+
+}
+
+.ground{
+	width:80%;
+	display: flex;
+		flex-direction:row;
+		justify-content:center;
+		align-items:center;	
+	color:white;
+	text-align: center;
+}
+
+.ground ul{
+	display: flex;
+		flex-direction:row;
+		justify-content:center;
+		align-items:center;	
+}
+
+footer{
+	background-color:#464646;
 }

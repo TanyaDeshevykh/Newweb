@@ -10,15 +10,17 @@
 	<header>
 		<nav>
 			<div class='usernavigation'>
-				<img src='image/Логотип.png'>
-			
-				<a href='tel:+79000000000'>+7 900 000 00 00 </a>
+				<ul>
+					<li class='mainlogo'><img src='image/logo.png'></li>
 				
-				<input class='search' type='search' value='Поиск по сайту'></input>
-			
-				<a href='#'>Личный кабинет</a>
+					<li><div class='tel'><a href='tel:+79000000000'>+7 900 000 00 00 </a></div></li>
+					
+					<li><input class='search' type='search' value='Поиск по сайту'></input></li>
 				
-				<a href='#'>Корзина</a>
+					<li class='usera'><div class='account'><a href='#'>Личный кабинет</a></li>
+					
+					<li class='usera'><a href='#'>Корзина</a></li>
+				</ul>
 			</div>
 			<div class='nav-menu'>
 			<!--меню-->
@@ -35,74 +37,93 @@
 	
 	<main>
 	<!--Слайдер-->
-	<section>
-		<div class='main-slider'>
-			<h2>ноутбуки
-				<span>для офиса и дома</span>
+	<section class='main-slider'>
+		<div class='slidertext'>
+			<h2>НОУТБУКИ
+				<br><span>ДЛЯ ОФИСА И ДОМА</span>
 			</h2>
 			<p>Lorem ipsem dolor sit amet, consectetur adipisicing elit, sed 
 			do eiusmod tempor incididunt ut labore et dolore magna</p>
-			<a href='#'>подробнее</a>
+			<br><div class='more'><a href='#'>ПОДРОБНЕЕ</a></div>
 		</div>
-		<img src="image/3 картинка основного слайдера.png">
-		<input type='radio' name='slider1' value='1'>
-		<input type='radio' name='slider1' value='2'>
-		<input type='radio' name='slider1' value='3'>
+		<img src="image/3 image main slider.png" height='263' width='426'>
+		
+		<div class='slider_switch'>
+			<input type='radio' name='slider1' value='1'>
+			<input type='radio' name='slider1' value='2'>
+			<input type='radio' name='slider1' value='3'>
+		</div>
 	</section>
+	
 	<!--Конец слайдера-->
 	
 	
-	<section>
+	<section class='tovar'>
 		<!--Картинки товаров. Круглые. С подписью снизу-->
-		<div>
-			<img src="image/Иконки товара. Моноблоки и ноутбуки.png">
-			<p>МОНОБЛОКИ И НОУТБУКИ</p>
-		</div>
-		
-		<div>
-			<img src="image/Иконки товара. периферия.png">
-			<p>ПЕРИФЕРИЯ</p>
-		</div>
-		
-		<div>
-			<img src="image/Иконки товара. Комплектующие.png">
-			<p>КОМПЛЕКТУЮЩИЕ</p>
-		</div>
-		
-		<div>
-			<img src="image/Иконки товара. Роутеры.png">
-			<p>РОУТЕРЫ</p>
-		</div>
-		
-		<div>
-			<img src="image/Иконки товара. Настольные лампы.png">
-			<p>НАСТОЛЬНЫЕ ЛАМПЫ</p>
-		</div>
-		
-		<div>
-			<img src="image/Иконки товара. Игровые симуляторы.png">
-			<p>ИГРОВЫЕ СИМУЛЯТОРЫ</p>
-		</div>
-		
+		<ul>
+			<li class='tovarwidth'><a href='#'>
+				<div class='icon_tovar'></div>
+				<h4>МОНОБЛОКИ И НОУТБУКИ</h4>
+			</a></li>
+			
+			<li class='tovarwidth'><a href='#'>
+				<div class='icon_tovar'></div>
+				<h4>ПЕРИФЕРИЯ</h4>
+			</a></li>
+			
+			<li class='tovarwidth'>
+				<a href='#'>
+				<div class='icon_tovar'></div>
+				<h4>КОМПЛЕКТУЮЩИЕ</h4>
+				</a>
+			</div></li>
+			
+			<li class='tovarwidth'>
+				<a href='#'>
+				<div class='icon_tovar'></div>
+				<h4>РОУТЕРЫ</h4>
+				</a>
+			</li>
+			
+			<li class='tovarwidth'>
+				<a href='#'>
+				<div class='icon_tovar'></div>
+				<h4>НАСТОЛЬНЫЕ ЛАМПЫ</h4>
+				</a>
+			</li>
+			
+			<li class='tovarwidth'>
+				<a href='#'>
+				<div class='icon_tovar'></div>
+				<h4>ИГРОВЫЕ СИМУЛЯТОРЫ</h4>
+				</a>
+			</li>
+		</ul>
 	</section>
 	
-	<section>
-		<div>
-			<!--Слайдер номер два работаютщий на лейблах в виде кнопок. Где имейджи должны быть картинки -->
-			<input type='radio' name='slider2' value='1'>доставка	
-			<input type='radio' name='slider2' value='2'>гарантия
-			<input type='radio' name='slider2' value='3'>кредит
-				
-			<p>Доставка</p>
+	<section class='services'>
+		<div class='Slider_services'>
+			<!--<input type='radio' name='slider2' value='1'>-->
+			<!--<input type='radio' name='slider2' value='3'>-->
+			<!--<input type='radio' name='slider2' value='2'>-->
 			
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
-				sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-				Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-				nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-				voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat 
-				cupidatat non</p>
+			<div class='serv_buttons'>
+				<div class='serv_button'>ДОСТАВКА</div>	
+				<div class='serv_button'>ГАРАНТИЯ</div>
+				<div class='serv_button'>КРЕДИТ</div>
+			</div>	
+			
+			<div class='serv_description'>
+				<p class='caption'>Доставка</p>
 				
-			<img src="image/Слайдер сервисы. доставка.png">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
+					sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+					Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+					nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+					voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat 
+					cupidatat non</p>
+			</div>	
+			<img src="image/Slider services.Delivery.png">
 		</div>
 		<!--<p>Гарантия</p>
 		
@@ -128,54 +149,54 @@
 		
 	</section>
 	
-	<!--сопнсоры/реклама-->
-	<section>
+	<!--сопонсоры/реклама-->
+	<section class='brands'>
 		<ul>
 			<li>
 				<a href='#'>
-					<img src="image/бренд 1.png">
+					<img src="image/brand1.png">
 				</a>
 			</li>
 			
 			<li>
 				<a href='#'>
-					<img src="image/бренд 2.png">
+					<img src="image/brand2.png">
 				</a>
 			</li>
 			
 			<li>
 				<a href='#'>
-					<img src="image/бренд 3.png">
+					<img src="image/brand3.png">
 				</a>
 			</li>
 			
 			<li>
 				<a href='#'>
-					<img src="image/бренд 4.png">
+					<img src="image/brand4.png">
 				</a>
 			</li>
 			
 			<li>
 				<a href='#'>
-					<img src="image/бренд 5.png">
+					<img src="image/brand5.png">
 				</a>
 			</li>
 			
 			<li>
 				<a href='#'>
-					<img src="image/бренд 6.png">
+					<img src="image/brand6.png">
 				</a>
 			</li>
 			
 			<li>
 				<a href='#'>
-					<img src="image/бренд 7.png">
+					<img src="image/brand7.png">
 				</a>
 			</li>
 			
 			<li>
 				<a href='#'>
-					<img src="image/бренд 8.png">
+					<img src="image/brand8.png">
 				</a>
 			</li>
 		
@@ -183,9 +204,9 @@
 		</ul>
 	</section>
 	
-	<div>
-		<section>
-			<h2>Наша компания</h2>
+	<div class='our_company'>
+		<section class='about_us'>
+			<h2>НАША КОМПАНИЯ</h2>
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
 			sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 			Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
@@ -194,24 +215,30 @@
 			cupidatat non</p>
 			
 			<ul>
-				<li>proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit </li>
-				<li>proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit </li>
+				<li><p>proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit </p></li>
+				<li><p>proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit </p></li>
 			</ul>
 			
 			<a href='#'>напишите нам</a>
 		</section>
 		
-		<article>
-			<h1>почтовая рассылка</h1>
+		<article class='mailing'>
+		
+			<h1>ПОЧТОВАЯ РАССЫЛКА</h1>
+			
 			<p>Узнавайте первыми о новостях, акциях и скидках интернет-магазина.</p>
+			
 			<input type='mail' value='Ваш E-mail'></input>
-			<p>Указанная информация не будет передана третьим лицам. Вы можете отписаться от почтовой рассылки в любое время.</p>
+			
+			<p class='note'>Указанная информация не будет передана третьим лицам. Вы можете отписаться от почтовой рассылки в любое время.</p>
+			
 			<button>Подписаться</button>
 		
 		</article>
 	</div>
+	
 	<footer>
-		<a href='#'><img src='image/Логотип.png'></a>
+		<a href='#'><img src='image/logo.png'></a>
 		<p>
 			Г.МОСКВА, УЛ.СТРОИТЕЛЕЙ, 15
 			К 1 ОФИС 45А
@@ -221,36 +248,34 @@
 		<a href='#'>Гарантия</a>
 		<a href='#'>Контакты</a>
 		<!--карта-->
-		<img src="image/Карта.png"> 
+		<img src="image/map.png"> 
 		
 		
 		<a href='#'>Личный кабинет</a>
 		<a href='#'>Корзина</a>
 		
-		<section>
+		<section class='ground'>
 			<p>Все права защищены 2017</p>
 			<!--соцсети-->
 			<ul>
 				<li>
-					<a href='#'><img src="image/Соц.сети. Вконтакте.png"><!--вконтакте--></a>
+					<a href='#'><img src="image/VK.png"><!--вконтакте--></a>
 				</li>	
 				<li>
-					<a href='#'><img src="image/Соц.сети. Фейсбук.png"><!--фейсбук--></a>
+					<a href='#'><img src="image/Facebook.png"><!--фейсбук--></a>
 				</li>
 				<li>
-					<a href='#'><img src="image/Соц.сети. Твиттер.png"><!--твитер--></a>
+					<a href='#'><img src="image/Twitter.png"><!--твитер--></a>
 				</li>
 				<li>
-					<a href='#'><img src="image/Соц.сети. Мэил.png"><!--мэил.ру--></a>
+					<a href='#'><img src="image/Mail.png"><!--мэил.ру--></a>
 				</li>
 			</ul>
 		</section>
 	
 	</footer>
 	
-	
-	
-	
+
 	</main>
 
 </body>
