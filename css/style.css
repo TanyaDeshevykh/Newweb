@@ -139,16 +139,26 @@ flex-grow:1;
 }
 
 .icon_tovar{
-  border-radius: 50%;
-  background-color: rgb(240, 240, 240);
-  width: 145px;
-  height: 145px;
-  border:5px solid #e9b637;
+	border-radius: 50%;
+	background-color: rgb(240, 240, 240);
+	width: 145px;
+	height: 145px;
+	border:5px solid #e9b637;
+	display: flex;
+		justify-content:center;
+		align-items:center;
+  
 }
 
 .services{
-	width:80%;
-	margin:0 auto;
+	
+	display: flex;
+		justify-content:center;
+	
+}
+
+.Slider_one{
+	
 	display: flex;
 		flex-direction:row;
 		justify-content:center;
@@ -174,13 +184,10 @@ flex-grow:1;
 
 .serv_description{
   color: rgba(60, 60, 60, 0.62);
-  
-  width: 473.414px;
-  height: 108.261px;
-  
+  width: 473px;
+  height: 108px;
 }
 
-}
 
 .caption{
 	font-size:40px;
@@ -193,16 +200,15 @@ flex-grow:1;
 
 .brands ul{
 	display: flex;
-	flex-direction:row;
-	justify-content:space-around;
-	
+		flex-direction:row;
+		justify-content:space-around;
 }
 
 .our_company{
 	display: flex;
-	flex-direction:row;
-	align-items: center;
-    justify-content: center; 
+		flex-direction:row;
+		align-items: center;
+		justify-content: center; 
 	}
 
 .about_us{
@@ -218,10 +224,22 @@ flex-grow:1;
 	color:#3c3c3c;
 }
 
+.about_us p{
+	font-size:20px;
+}
 .about_us li{
 	list-style:disc;	
 	
 	}
+
+.about_us li p{
+	font-size:18px;
+	padding-top:15px;
+}
+
+.about_us a{
+	color:black;
+}
 
 .mailing{
 	background-color:#3c3c3c;
@@ -243,6 +261,7 @@ flex-grow:1;
 	height: 46px;
 	padding:10px;
 	color:white;
+	margin-top:15px;
 }
 
 .note{
@@ -250,8 +269,8 @@ flex-grow:1;
   font-family: "Century Gothic";
   color: rgba(255, 255, 255, 0.122);
   line-height: 1.2;
-  width: 296.025px;
-  height: 36.431px;
+  width: 296px;
+  height: 36px;
 }
 
 .mailing button{
@@ -263,17 +282,23 @@ flex-grow:1;
 		justify-content:center;
 	border:0px solid red;
 	font-size:20px;
-
+	margin-top:40px;
 }
 
+.mailing p{
+	margin-top:30px;
+}
 .ground{
-	width:80%;
+	width:150%;
 	display: flex;
 		flex-direction:row;
 		justify-content:center;
 		align-items:center;	
 	color:white;
 	text-align: center;
+	background-color:black;
+	z-index:1;
+	position:absolute;
 }
 
 .ground ul{
@@ -283,6 +308,61 @@ flex-grow:1;
 		align-items:center;	
 }
 
+.footer{
+	width:80%;
+	display: flex;
+		flex-direction:row;
+		justify-content:center;
+		align-items:center;	
+
+}
+
+.footer_info{
+	display: flex;
+		flex-direction:column;
+		justify-content:center;
+		align-items:center;
+}
+
+.footer_info a{
+	color:white;
+	
+}
+
+.footer_tel{
+	width:700px;
+}
+
+.footer_tel a{
+	color:white;
+	font-size:25px;
+}
+
+.footer_map{
+	display: flex;
+		flex-direction:column;
+		justify-content:center;
+		align-items:center;
+}
+
+.footer_map ul{
+	display: flex;
+		flex-direction:row;
+		justify-content:space-between;
+	width:100%;
+}
+
+
+.footer_map a{
+	color:white;
+	
+}
+
 footer{
+	width: 100%;
+	height:500px;
+	height: 322px;
 	background-color:#464646;
+	z-index:2;
+	position:absolute;
 }
