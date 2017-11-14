@@ -8,24 +8,35 @@
 <body>
 
 	<header>
-		<nav>
-			<div class='usernavigation'>
-				<ul>
+		<nav class='main-navigation'>
+			<div class='top-menu'>
+			
+				<ul class='user-navigation  wrapper'>
 					<li class='mainlogo'><img src='image/logo.png'></li>
 				
 					<li><div class='tel'><a href='tel:+79000000000'>+7 900 000 00 00 </a></div></li>
 					
 					<li><input class='search' type='search' value='Поиск по сайту'></input></li>
-				
-					<li class='usera'><div class='account'><a href='#'>Личный кабинет</a></li>
 					
-					<li class='usera'><a href='#'>Корзина</a></li>
+					<li class='usera cabinet'><a href='#'><img src='image/account.png'>  Личный кабинет</a></li>
+					
+					<li class='usera'><a href='#'><img src='image/basket.png'>  Корзина</a></li>
 				</ul>
+				
 			</div>
-			<div class='nav-menu'>
-			<!--меню-->
-				<ul>
-					<li>Все категории</li>
+			
+			<div class='bottom-menu'>
+				<ul class='site-navigation  wrapper'>
+					<li>Все категории +
+						<ul class='dropdown-submenu'>
+							<li>Роутеры</li>
+							<li>Игровые симуляторы</li>
+							<li>Комплектующие</li>
+							<li>Переферия</li>
+							<li>Настольные лампы</li>
+							<li>Моноблоки и ноутбуки</li>
+						</ul>
+					</li>
 					<li>Доставка</li>
 					<li>Гарантия</li>
 					<li>Контакты</li>
@@ -38,23 +49,66 @@
 	<main>
 	<!--Слайдер-->
 	<section class='main-slider'>
-		<div class='slidertext'>
-			<h2>НОУТБУКИ
-				<br><span>ДЛЯ ОФИСА И ДОМА</span>
-			</h2>
-			<p>Lorem ipsem dolor sit amet, consectetur adipisicing elit, sed 
-			do eiusmod tempor incididunt ut labore et dolore magna</p>
-			<br><div class='more'><a href='#'>ПОДРОБНЕЕ</a></div>
-		</div>
-		<img src="image/3 image main slider.png" height='263' width='426'>
+			<div class='switch'>
+				<label for='1'>  </label>
+				<label for='2'>  </label>
+				<label for='3'>  </label>
+			</div>
+			<input type='radio' name='slider1' value='1' id='1'>
+			<div class='slid-one slide'>
+				<div class='slidertext'>
+				
+					<h2>НОУТБУКИ
+						<br><span>ДЛЯ ОФИСА И ДОМА</span>
+					</h2>
+					<br>
+					<p>Lorem ipsem dolor sit amet, consectetur adipisicing elit, sed 
+					do eiusmod tempor incididunt ut labore et dolore magna</p>
+					
+					<br><div class='more'><a href='#'>ПОДРОБНЕЕ</a></div>
+					
+				</div>
+				
+				<img src="image/3 image main slider.png" height='263' width='426'>
+			</div>
+			<input type='radio' name='slider1' value='2' id='2'>
+			<div class='slid-two slide'>
+				<div class='slidertext'>
+				
+					<h2>ВСЯ ПЕРЕФЕРИЯ
+						<br><span>ПО САМЫМ НИЗКИМ ЦЕНАМ</span>
+					</h2>
+					<br>
+					<p>Lorem ipsem dolor sit amet, consectetur adipisicing elit, sed 
+					do eiusmod tempor incididunt ut labore et dolore magna</p>
+					
+					<br><div class='more'><a href='#'>ПОДРОБНЕЕ</a></div>
+					
+				</div>
+				
+				<img src="image/2 image main slider.png" height='269' width='433'>
+			</div>
+			<input type='radio' name='slider1' value='3' id='3'>
+			<div class='slid-three slide'>
+				<div class='slidertext'>
+				
+					<h2>Только этой осенью
+						<br><span>скидка на все ноутбуки </span>30 % 
+					</h2>
+					<br>
+					<p>Lorem ipsem dolor sit amet, consectetur adipisicing elit, sed 
+					do eiusmod tempor incididunt ut labore et dolore magna</p>
+					
+					<br><div class='more'><a href='#'>ПОДРОБНЕЕ</a></div>
+					
+				</div>
+				
+				<img src="image/1 image main slider.png" height='500' width='277'>
+			</div>
 		
-		<div class='slider_switch'>
-			<input type='radio' name='slider1' value='1'>
-			<input type='radio' name='slider1' value='2'>
-			<input type='radio' name='slider1' value='3'>
-		</div>
+		
 	</section>
-	
+	<br><br><hr>
 	<!--Конец слайдера-->
 	
 	
@@ -62,71 +116,87 @@
 		<!--Картинки товаров. Круглые. С подписью снизу-->
 		<ul>
 			<li class='tovarwidth'><a href='#'>
-				<div class='icon_tovar'>
+				<div class='icon-tovar'>
 					<img src='image/monoblocks_and_laptops.png'></img>
-				</div>
+				</div><br>
 				<h4>МОНОБЛОКИ И НОУТБУКИ</h4>
 			</a></li>
 			
 			<li class='tovarwidth'><a href='#'>
-				<div class='icon_tovar'>
+				<div class='icon-tovar'>
 					<img src='image/periphery.png'></img>
-				</div>
+				</div><br>
 				<h4>ПЕРИФЕРИЯ</h4>
 			</a></li>
 			
 			<li class='tovarwidth'>
 				<a href='#'>
-				<div class='icon_tovar'>
+				<div class='icon-tovar'>
 					<img src='image/accessories.png'></img>
-				</div>
+				</div><br>
 				<h4>КОМПЛЕКТУЮЩИЕ</h4>
 				</a>
 			</div></li>
 			
 			<li class='tovarwidth'>
 				<a href='#'>
-				<div class='icon_tovar'>
+				<div class='icon-tovar'>
 					<img src='image/routers.png'></img>
-				</div>
+				</div><br>
 				<h4>РОУТЕРЫ</h4>
 				</a>
 			</li>
 			
 			<li class='tovarwidth'>
 				<a href='#'>
-				<div class='icon_tovar'>
+				<div class='icon-tovar'>
 					<img src='image/desk lamp.png'></img>
-				</div>
+				</div><br>
 				<h4>НАСТОЛЬНЫЕ ЛАМПЫ</h4>
 				</a>
 			</li>
 			
 			<li class='tovarwidth'>
 				<a href='#'>
-				<div class='icon_tovar'>
+				<div class='icon-tovar'>
 					<img src='image/game simulators.png'></img>
-				</div>
+				</div><br>
 				<h4>ИГРОВЫЕ СИМУЛЯТОРЫ</h4>
 				</a>
 			</li>
 		</ul>
 	</section>
-	
+	<hr><br><br>
 	<section class='services'>
-			<!--<input type='radio' name='slider2' value='1'>-->
-			<!--<input type='radio' name='slider2' value='3'>-->
-			<!--<input type='radio' name='slider2' value='2'>-->
-		<div class='Slider_one'>
-			<div class='serv_buttons'>
-				<div class='serv_button'>ДОСТАВКА</div>	
-				<div class='serv_button'>ГАРАНТИЯ</div>
-				<div class='serv_button'>КРЕДИТ</div>
+		
+			<div class='serv-buttons'>
+				<label for='21'><div class='serv-button'>ДОСТАВКА</div>	</label>
+				<label for='22'><div class='serv-button'>ГАРАНТИЯ</div></label>
+				<label for='23'><div class='serv-button'>КРЕДИТ</div></label>
 			</div>	
 			
-			<div class='serv_description'>
-				<p class='caption'>Доставка</p>
-				
+			<hr style='hr'>
+			
+		<input type='radio' name='slider2' value='1' id='21'>
+		<div class='Sliderone slide2'>
+			<div class='Slider-one-text'>
+				<h2>Доставка</h2>
+				<br>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
+					sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+					Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+					nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+					voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat 
+					cupidatat non</p>	
+			</div>		
+			<img src="image/Slider services.Delivery.png" height='179' width='248'>
+		</div>
+		
+		<input type='radio' name='slider2' value='2' id='22'>
+		<div class='Slidertwo slide2'>
+			<div class='Slider-two-text'>
+				<h2>Гарантия</h2>
+				<br>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
 					sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 					Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
@@ -134,32 +204,27 @@
 					voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat 
 					cupidatat non</p>
 			</div>	
-			<img src="image/Slider services.Delivery.png" height='179' width='248'>
+			
+			<img src="image/Slider services. Guarantee.png" height='179' width='163'>
+			
 		</div>
-		<!--<p>Гарантия</p>
 		
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
-			sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-			Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-			nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-			voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat 
-			cupidatat non</p>
-			
-		<img src="http://placehold.it/150x100">
-		
-		<p>Кредит</p>
-		
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
-			sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-			Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-			nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-			voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat 
-			cupidatat non</p>
-			
-		<img src="http://placehold.it/150x100">-->
-		
+		<input type='radio' name='slider2' value='3' id='23'>
+		<div class='Sliderthree slide2'>
+			<div class='Slider-three-text'>
+				<h2>Кредит</h2>
+				<br>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
+					sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+					Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+					nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+					voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat 
+					cupidatat non</p>
+			</div>	
+				<img src='image/Slider services.Credit.png' height='174' width='158'>
+		</div>
 	</section>
-	
+	<br><br><hr>
 	<!--сопонсоры/реклама-->
 	<section class='brands'>
 		<ul>
@@ -215,21 +280,21 @@
 		</ul>
 	</section>
 	
-	<div class='our_company'>
-		<section class='about_us'>
-			<h2>НАША КОМПАНИЯ</h2>
+	<div class='our-company'>
+		<section class='about-us'>
+			<h2>НАША КОМПАНИЯ</h2><br>
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
 			sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 			Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
 			nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
 			voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat 
-			cupidatat non</p>
+			cupidatat non</p><br>
 			
 			<ul>
 				<li><p>proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit </p></li>
 				<li><p>proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit </p></li>
 			</ul>
-			
+			<br><br>
 			<h3><a href='#'>НАПИШИТЕ НАМ</a></h3>
 		</section>
 		
@@ -239,60 +304,72 @@
 			
 			<p>Узнавайте первыми о новостях, акциях и скидках интернет-магазина.</p>
 			
-			<input type='mail' value='Ваш E-mail'></input>
+			<input type='mail' value='Ваш E-mail' class='mail'></input>
 			
 			<p class='note'>Указанная информация не будет передана третьим лицам. Вы можете отписаться от почтовой рассылки в любое время.</p>
 			
-			<button>Подписаться</button>
+			<button class='subscribe'>Подписаться</button>
 		
 		</article>
 	</div>
 	
 	<footer>
 		<section class='footer'>
-			<div class='footer_info'>
-				<a href='#'><img src='image/logo.png'></a>
-				<p>
-					Г.МОСКВА, УЛ.СТРОИТЕЛЕЙ, 15
-					К 1 ОФИС 45А
-				</p>
+		
+			<div class='footer-main'>
+			
+				<div class='footer-info'>
 				
-				<a href='#'>Личный кабинет</a>
-				<a href='#'>Корзина</a>
+					<a href='#'><img src='image/logo.png'></a><br><br>
+					
+					<p>
+						Г.МОСКВА, УЛ.СТРОИТЕЛЕЙ, 15<br>
+						К 1 ОФИС 45А
+					</p>
+					<br><br>
+					<ul>
+						<li class='cabinet'><a href='#'><img src='image/account.png'>  Личный кабинет</a></li>
+						<li><a href='#'><img src='image/basket.png'>  Корзина</a></li>
+					</ul>
+					
+				</div>
+				
+				<div class='footer-tel'>
+					<a href='tel:88005000616'>8-800-5000-616</a>
+				</div>
+				
+				<div class='footer-map'>
+					<ul>
+						<li><a href='#'>Доставка</a></li>
+						<li><a href='#'>Гарантия</a></li>
+						<li><a href='#'>Контакты</a></li>
+					</ul><br>
+					<img src="image/map.png"> 
+				</div>
 			</div>
-			
-			<div class='footer_tel'>
-				<a href='tel:88005000616'>8-800-5000-616</a>
-			</div>
-			
-			<div class='footer_map'>
-				<ul>
-					<li><a href='#'>Доставка</a></li>
-					<li><a href='#'>Гарантия</a></li>
-					<li><a href='#'>Контакты</a></li>
-				</ul>
-				<img src="image/map.png"> 
-			</div>
-			
-			<section class='ground'>
+		</section>
+		<section class='ground'>
+			<div class='ground-info'>
 				<p>Все права защищены 2017</p>
-				<!--соцсети-->
+					<!--соцсети-->
 				<ul>
-					<li>
+					<li class='vk'>
 						<a href='#'><img src="image/VK.png"><!--вконтакте--></a>
 					</li>	
-					<li>
+					<li class='Facebook'>
 						<a href='#'><img src="image/Facebook.png"><!--фейсбук--></a>
 					</li>
-					<li>
+					<li class='Twitter'>
 						<a href='#'><img src="image/Twitter.png"><!--твитер--></a>
 					</li>
-					<li>
+					<li class='Mail'>
 						<a href='#'><img src="image/Mail.png"><!--мэил.ру--></a>
 					</li>
 				</ul>
-			</section>
+			</div>
 		</section>
+			
+		
 	</footer>
 	
 
