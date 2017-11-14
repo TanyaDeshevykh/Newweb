@@ -1,4 +1,4 @@
-body{
+﻿body{
 background-color: #ffffff;
 font-family: 'PT Sans Narrow', 'Arial', sans-serif;
 }
@@ -117,6 +117,10 @@ a{
 	position:relative;
 }
 
+.main-slider input[type=radio]#button-1:checked ~.main-slider label{
+	background-color:white;
+}
+
 .main-slider label{
 	border:2px solid white;
 	border-radius:100%;
@@ -134,6 +138,7 @@ a{
 .slide{
 	order:2;
 }
+
 input[type=radio]:checked+div{
 	order:1;
 }
@@ -385,12 +390,18 @@ input[type=radio]:checked+div{
 .about-us p{
 	font-size:20px;
 }
+
+.about-us ul{
+	padding-left:15px;
+}
+
 .about-us li{
-	list-style:disc;	
+	list-style:disc;
+	padding-left:15px;
 	}
 
 .about-us li p{
-	font-size:18px;
+	font-size:17px;
 	padding-top:15px;
 }
 
@@ -461,6 +472,10 @@ input[type=radio]:checked+div{
 	width:1160px;
 	display: flex;
 	justify-content:space-between;
+}
+
+.ground-info li{
+	padding-left:5px;
 }
 
 .ground ul{
@@ -547,8 +562,6 @@ footer{
 	background-color:#464646;
 	z-index:2;
 	padding-top:15px;
-	
-
 }
 /*Конец футера*/
 
@@ -587,5 +600,61 @@ footer{
 	opacity:0.4;
 }
 
+.foot-map-a:hover a{
+	color:#e9b637;
+}
 
+.foot-map-a:active a{
+	color:white;
+	opacity:0.4;
+}
+
+.footer-tel:hover a{
+	color:#e9b637;
+}
+
+.footer-tel:active a{
+	color:white;
+	opacity:0.4;
+}
+
+.icon-tovar:active{
+	opacity:0.4;
+}
+
+.mail:active{
+	color:#e9b637;
+}
+
+.mail:invalid{
+	border-color:red;
+	color:red;
+}
+
+.serv-button:active{
+	opacity:0.4;
+}
+
+.cabinet :active {
+	opacity:0.4;
+	color:white;
+} 
+
+.more:hover {
+	background-color:white;
+}
+.more:hover a{
+	
+	color:#e9b637;
+}
+
+.more:active{
+	opacity:0.4;
+}
+
+.subscribe:active {
+	opacity:0.4;
+}
 /*Конец анимации при действиях*/
+
+
